@@ -79,3 +79,30 @@ section {
   padding-left: 45px;
   height: 200px;
 }
+.logo_img {
+  margin: 0 auto;
+}
+a.logo_img {
+  background: url(/img/icon_tablet.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 71px;
+  height: 69px;
+ }
+
+a.logo_img:hover {
+  background: url(/img/icon_back.png);
+  background-repeat: no-repeat;
+  width: 71px;
+  height: 69px;
+  display: block;
+  animation: fade .5s linear forwards;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
