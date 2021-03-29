@@ -88,7 +88,7 @@ a.logo_img {
   display: block;
   width: 71px;
   height: 69px;
- }
+}
 
 a.logo_img:hover {
   background: url(/img/icon_back.png);
@@ -96,7 +96,7 @@ a.logo_img:hover {
   width: 71px;
   height: 69px;
   display: block;
-  animation: fade .5s linear forwards;
+  animation: fade 0.5s linear forwards;
 }
 @keyframes fade {
   0% {
